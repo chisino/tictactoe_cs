@@ -1,3 +1,3 @@
 # tictactoe_cs
 
-Tic-Tac-Toe game created using C# and WPF
+Tic-Tac-Toe game created using C# (.NET) and WPF in Visual Studio
