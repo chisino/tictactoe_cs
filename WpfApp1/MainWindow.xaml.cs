@@ -74,7 +74,6 @@ namespace WpfApp1
                     {
                         if (checkArray[x - 2, y] == newButtonContent)
                         {
-                            Debug.WriteLine("Top 1");
                             return true;
                         }
                     }
@@ -82,7 +81,6 @@ namespace WpfApp1
                     {
                         if (checkArray[x + 1, y] == newButtonContent)
                         {
-                            Debug.WriteLine("Top 2");
                             return true;
                         }
                     }
@@ -95,7 +93,6 @@ namespace WpfApp1
                     {
                         if (checkArray[x + 2, y] == newButtonContent)
                         {
-                            Debug.WriteLine("Top 3");
                             return true;
                         }
                     }
@@ -112,7 +109,6 @@ namespace WpfApp1
                     {
                         if (checkArray[x, y - 2] == newButtonContent)
                         {
-                            Debug.WriteLine("Left 1");
                             return true;
                         }
                     }
@@ -120,7 +116,6 @@ namespace WpfApp1
                     {
                         if (checkArray[x, y + 1] == newButtonContent)
                         {
-                            Debug.WriteLine("Left 2");
                             return true;
                         }
                     }
@@ -133,7 +128,6 @@ namespace WpfApp1
                     {
                         if (checkArray[x, y + 2] == newButtonContent)
                         {
-                            Debug.WriteLine("Left 3");
                             return true;
                         }
                     }
@@ -150,7 +144,6 @@ namespace WpfApp1
                     {
                         if (checkArray[x - 2, y - 2] == newButtonContent)
                         {
-                            Debug.WriteLine("Diagonal 1");
                             return true;
                         }
                     }
@@ -158,7 +151,6 @@ namespace WpfApp1
                     {
                         if (checkArray[x + 1, y + 1] == newButtonContent)
                         {
-                            Debug.WriteLine("Diagonal 2");
                             return true;
                         }
                     }
@@ -171,7 +163,6 @@ namespace WpfApp1
                     {
                         if (checkArray[x + 2, y + 2] == newButtonContent)
                         {
-                            Debug.WriteLine("Diagonal 3");
                             return true;
                         }
                     }
@@ -179,7 +170,6 @@ namespace WpfApp1
                 {
                     if (checkArray[x - 1, y - 1] == newButtonContent)
                     {
-                        Debug.WriteLine("Diagonal 4");
                         return true;
                     }
                 }
@@ -193,14 +183,12 @@ namespace WpfApp1
                     {
                         if (checkArray[x + 2, y - 2] == newButtonContent)
                         {
-                            Debug.WriteLine("Diagonal 5");
                             return true;
                         }
                     } else if (x - 1 >= 0 && y + 1 <= 2)
                     {
                         if (checkArray[x - 1, y + 1] == newButtonContent)
                             {
-                                Debug.WriteLine("Diagonal 6");
                                 return true;
                             }
                     }
@@ -215,7 +203,6 @@ namespace WpfApp1
                     {
                         if (checkArray[x - 2, y + 2] == newButtonContent)
                             {
-                                Debug.WriteLine("Diagonal 7");
                                 return true;
                             }
                     }
